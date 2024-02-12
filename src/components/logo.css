@@ -1,0 +1,119 @@
+.logoImage{
+    width: 350px;
+}
+.logoBar{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #f19720;
+}
+.cars{
+    padding: 5px 17px;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color: #fde7aa;
+}
+.cars:focus{
+    outline: none;
+}
+.inputBarParent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #df6b1b;
+}
+.inputBar{
+    padding: 4px 0;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    background-color: #fde7aa;
+}
+.inputBar:focus{
+    outline: none;
+}
+.addBtn{
+    padding: 4px 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #4c3423;
+    background-color: #fde7aa;
+}
+.addBtn:hover{
+    background-color: #67c1a3;
+}
+.listPar{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.listItems{
+    display: flex;
+    justify-content: center;
+    background-color: #4c3423;
+   flex-wrap: wrap;
+  
+}
+.bottomSelectList option{
+    background-color: #171510;
+    color: #fff;
+    font-size: 10px;
+}
+ option:nth-child(2):focus{
+    background: blue;
+}
+.bottomSelectList> select option:hover{
+    color: blue !important;
+}
+.bottomSelectList>select{
+    font-size: 8px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.bottomSelectList> button{
+    font-size: 8px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.inputBar2{
+    display: flex;
+    gap: 10px;
+}
+.btmBtn{
+    background-color: #fde7aa;
+}
+.btmBtn:hover{
+    background-color: #67c1a3;
+}
+.dltBtn{
+    background-color: #4c3423;
+    cursor: pointer;
+}
+.dltBtn:hover{
+    color: rgb(233, 181, 11) !important;
+}
+@media (max-width: 575px) {
+    .inputBarParent{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .inputBarParent p {
+        margin-bottom: 0;
+    }
+  }
+  @media (max-width: 355px){
+    .logoImage{
+        width: 100%;
+    }
+  }
